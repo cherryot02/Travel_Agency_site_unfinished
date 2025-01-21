@@ -1,5 +1,5 @@
 # Travel Agency Website
-This is a website I made using HTML, CSS, and BootStrap. It was not deployed as the owner need it right away and I only a few weeks on hand. 
+This is a website I made using HTML, CSS, and BootStrap. It was not deployed as the owner needed it right away and I only had few days on hand for submission. 
 
 Disclaimer: This is not a how-to but more so how I did it. :v:
 
