@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,800;1,900&display=swap');
+
+body
+{
+	background: #D9C2A7;
+	color: #000000;
+	font-family: Nunito Sans, Arial, sans-serif;
+}
+
+.navbar-brand
+{
+	color: #fff;
+	font-weight: 800;
+}
+
+.navbar-brand:hover
+{
+	color: #ffcc00;
+}
+
+.navbar-nav .nav-link
+{
+	text-transform: uppercase;
+	font-weight: 600;	
+	color: #fff;
+}
+
+.navbar-nav .nav-link.active
+{
+	color: #ffcc00;
+}
+
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
+	z-index: 5;
+}
+
+.carousel-caption h1
+{
+	font-family: Nunito Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 50px;
+	text-shadow: 5px 2px 10px #000000;
+}
+
+.carousel-caption p
+{
+	font-family: Nunito Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.item
+{
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.section2
+{
+	background: #D9C2A7;
+}
+
+.card
+{
+	margin: 5% 0 5%;
+}
+
+.section3
+{
+	background-color: #5C6F73;
+	color:#fff;
+	font-family: Nunito Sans, Arial, sans-serif;
+}
+
+.section3 h2
+{
+	margin: 25px;
+	color:#fff;
+	font-family: Nunito Sans, Arial, sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.fancy-border-radius
+{
+	box-shadow: 3px 2px 10px #000000a9;
+	margin: 5px;
+	border-radius: 19% 81% 60% 40% / 48% 64% 36% 52%;
+}
+
+.section1 .logo
+{
+	display: flex;
+	text-align: center;
+	margin: 50px auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.section2 .about
+{
+	text-align: justify;
+	width: 900px;
+	padding-bottom: 70px;
+}
+
+.section3
+{
+	padding-bottom: 20px;
+}
+
+.section3 .partners
+{
+	margin: 5px;
+	padding-bottom: 50px;
+}
+
+.section1Places
+{
+	background-image:  linear-gradient(#00000080,#00000080), url('../images/pexels-belle-co-846343.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+.section1Places::before
+{
+	background-color: #00000084;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+.section1Places .text-center
+{
+	font-family: Nunito Sans, Arial, sans-serif;
+	font-weight: 900;
+	animation: fadeIn 5s;
+}
+
+@keyframes fadeIn
+{
+	0% 
+	{ 
+		opacity: 0; 
+	}
+	100% 
+	{ 
+		opacity: 1; 
+	}
+}
+
+.section2Places table
+{
+	width: 500px;
+	border: 2px solid #000000;
+	background-color: #fff;
+	margin-top: 45px;
+	border-collapse: collapse;
+}
+
+
+.section2Places .map img
+{
+	margin: 40px;
+	border: 10px solid #fff;
+	border-radius: 5px;
+}
+
+.section1Gallery
+{
+	background-image:  linear-gradient(#00000080,#00000080), url('../images/snow1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+.section1Gallery::before
+{
+	background-color: #00000084;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+.section1Gallery .text-center
+{
+	font-family: Nunito Sans, Arial, sans-serif;
+	font-weight: 900;
+	animation: fadeIn 5s;
+}
+
+@keyframes fadeIn
+{
+	0% 
+	{ 
+		opacity: 0; 
+	}
+	100% 
+	{ 
+		opacity: 1; 
+	}
+}
+
+.section2Gallery
+{
+	width: 700px;
+	height: 500px;
+	margin: 45px;
+}
+
+.section3Gallery
+{
+	background-color: #5C6F73;
+	color:#fff;
+	font-family: Nunito Sans, Arial, sans-serif;
+}
+.section1Contact
+{
+	background-image:  linear-gradient(#00000080,#00000080), url('../images/pexels-aprilli-alexinne-6961694.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+.section1Contact::before
+{
+	background-color: #00000084;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+.section1Contact .text-center
+{
+	font-family: Nunito Sans, Arial, sans-serif;
+	font-weight: 900;
+	animation: fadeIn 5s;
+}
+
+@keyframes fadeIn
+{
+	0% 
+	{ 
+		opacity: 0; 
+	}
+	100% 
+	{ 
+		opacity: 1; 
+	}
+}
+
+.section2Contact
+{
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+fieldset
+{
+	padding: 20px;
+	background-color: #fff;
+	border: 2px solid #000;
+}
+
+
+
+
+#intercept
+{
+	text-align: center;
+	margin-top: 200px;
+	font-family: Nunito Sans, Arial, sans-serif;
+}
+
+
+#footer
+{
+
+	background-color: #591D0F;
+	color: #fff;
+	font-style: italic;
+	font-family: monospace;
+	text-align: center;
+	margin: 0;
+}
